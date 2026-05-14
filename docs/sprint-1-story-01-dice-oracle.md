@@ -128,8 +128,3 @@ src/SoliGavant.Tests/
 - Disadvantage display: `2d20=[17,4] take lowest=4`
 - Standard display: `d20=[17]`
 - Arrow: `->` (resolution outcome)
-
-## Healthcare Parallel
-
-`DiceEngine` = a randomization/sampling utility (think: random patient assignment in a trial).
-`OracleEngine` = a rules engine / decision support module — takes inputs, applies logic, returns a structured decision with rationale.
