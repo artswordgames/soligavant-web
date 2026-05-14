@@ -16,16 +16,16 @@
 
 ## Acceptance Criteria
 
-- [ ] `brew --version` returns a version
-- [ ] `git --version` returns a version
-- [ ] `docker --version` returns a version
-- [ ] `docker run hello-world` succeeds
-- [ ] `dotnet --version` returns 8.x
-- [ ] `node --version` returns a version
-- [ ] GitHub repo cloned locally and `git status` is clean
-- [ ] VS Code opens the project with no errors
-- [ ] Project CLAUDE.md exists at repo root
-- [ ] `docker compose up` starts API and database (end of sprint)
+- [x] `brew --version` returns a version
+- [x] `git --version` returns a version
+- [x] `docker --version` returns a version
+- [x] `docker run hello-world` succeeds
+- [x] `dotnet --version` returns 8.x
+- [x] `node --version` returns a version
+- [x] GitHub repo cloned locally and `git status` is clean
+- [x] VS Code opens the project with no errors
+- [x] Project CLAUDE.md exists at repo root
+- [x] `docker compose up` starts API and database (end of sprint)
 
 ---
 
@@ -36,14 +36,14 @@
 - [x] Install Docker Desktop
 - [x] Fix Docker CLI PATH issue (symlink + zshrc export)
 - [x] Verify `docker run hello-world` works
-- [ ] Install .NET 8 SDK (currently on EOL 3.1 — upgrade required)
-- [ ] Verify Node.js version is suitable
-- [ ] Install VS Code extensions (C#, Docker, GitLens, Prettier, ESLint, Playwright)
-- [ ] Create GitHub repo ✓ (soligavant-web)
-- [ ] Clone repo locally ✓
-- [ ] Create project CLAUDE.md at repo root
-- [ ] Create initial project folder structure
-- [ ] Set up Docker Compose (API + PostgreSQL)
+- [x] Install .NET 8 SDK (currently on EOL 3.1 — upgrade required)
+- [x] Verify Node.js version is suitable
+- [x] Install VS Code extensions (C#, Docker, GitLens, Prettier, ESLint, Playwright)
+- [x] Create GitHub repo ✓ (soligavant-web)
+- [x] Clone repo locally ✓
+- [x] Create project CLAUDE.md at repo root
+- [x] Create initial project folder structure
+- [x] Set up Docker Compose (API + PostgreSQL)
 
 ---
 
@@ -61,7 +61,7 @@
 
 ## Healthcare Parallel
 
-In a healthcare software shop, this story would also include:
+In a healthcare software shop, this story would likely include:
 - VPN access setup
 - Access to internal NuGet/npm package registries
 - Certificate installation for internal HTTPS
